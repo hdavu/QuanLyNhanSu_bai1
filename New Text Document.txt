@@ -1,1 +1,8 @@
-thay doi lan 4
+<<<<<<< HEAD
+day la file
+thay doi file moi hon
+thay doi tren git Desktop
+=======
+day la file
+thay doi file moi hon
+>>>>>>> origin/hiep
