@@ -57,12 +57,6 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.thong_tinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.danh_sachdataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ma = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ngaysinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.quequan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tongiao = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.diachi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.gioitinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -86,6 +80,13 @@
             this.txtQueQuan = new System.Windows.Forms.TextBox();
             this.txtTonGiao = new System.Windows.Forms.TextBox();
             this.dtpNgaySinh = new System.Windows.Forms.DateTimePicker();
+            this.ma = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ten = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ngaysinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.quequan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tongiao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.diachi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gioitinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.danh_sachdataGridView1)).BeginInit();
             this.ho_so_chi_tietgroupBox1.SuspendLayout();
@@ -305,9 +306,11 @@
             this.danh_sachdataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.danh_sachdataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.danh_sachdataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.danh_sachdataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ma,
+            this.ten,
             this.ngaysinh,
             this.quequan,
             this.tongiao,
@@ -319,42 +322,6 @@
             this.danh_sachdataGridView1.Size = new System.Drawing.Size(812, 187);
             this.danh_sachdataGridView1.TabIndex = 1;
             this.danh_sachdataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // ma
-            // 
-            this.ma.HeaderText = "Mã nhân viên";
-            this.ma.Name = "ma";
-            this.ma.ReadOnly = true;
-            // 
-            // ngaysinh
-            // 
-            this.ngaysinh.HeaderText = "Ngày sinh";
-            this.ngaysinh.Name = "ngaysinh";
-            this.ngaysinh.ReadOnly = true;
-            // 
-            // quequan
-            // 
-            this.quequan.HeaderText = "Quê quán";
-            this.quequan.Name = "quequan";
-            this.quequan.ReadOnly = true;
-            // 
-            // tongiao
-            // 
-            this.tongiao.HeaderText = "Tôn giáo";
-            this.tongiao.Name = "tongiao";
-            this.tongiao.ReadOnly = true;
-            // 
-            // diachi
-            // 
-            this.diachi.HeaderText = "Địa chỉ";
-            this.diachi.Name = "diachi";
-            this.diachi.ReadOnly = true;
-            // 
-            // gioitinh
-            // 
-            this.gioitinh.HeaderText = "Giới tính";
-            this.gioitinh.Name = "gioitinh";
-            this.gioitinh.ReadOnly = true;
             // 
             // groupBox1
             // 
@@ -495,6 +462,7 @@
             // 
             this.ho_so_chi_tietgroupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.ho_so_chi_tietgroupBox1.AutoSize = true;
             this.ho_so_chi_tietgroupBox1.Controls.Add(this.dtpNgaySinh);
             this.ho_so_chi_tietgroupBox1.Controls.Add(this.cboGioiTinh);
             this.ho_so_chi_tietgroupBox1.Controls.Add(this.txtDiaChi);
@@ -559,6 +527,55 @@
             this.dtpNgaySinh.Name = "dtpNgaySinh";
             this.dtpNgaySinh.Size = new System.Drawing.Size(178, 20);
             this.dtpNgaySinh.TabIndex = 21;
+            // 
+            // ma
+            // 
+            this.ma.DataPropertyName = "ma";
+            this.ma.HeaderText = "Mã nhân viên";
+            this.ma.Name = "ma";
+            this.ma.ReadOnly = true;
+            // 
+            // ten
+            // 
+            this.ten.DataPropertyName = "ten";
+            this.ten.HeaderText = "Họ và tên";
+            this.ten.Name = "ten";
+            this.ten.ReadOnly = true;
+            // 
+            // ngaysinh
+            // 
+            this.ngaysinh.DataPropertyName = "ngaysinh";
+            this.ngaysinh.HeaderText = "Ngày sinh";
+            this.ngaysinh.Name = "ngaysinh";
+            this.ngaysinh.ReadOnly = true;
+            // 
+            // quequan
+            // 
+            this.quequan.DataPropertyName = "quequan";
+            this.quequan.HeaderText = "Quê quán";
+            this.quequan.Name = "quequan";
+            this.quequan.ReadOnly = true;
+            // 
+            // tongiao
+            // 
+            this.tongiao.DataPropertyName = "tongiao";
+            this.tongiao.HeaderText = "Tôn giáo";
+            this.tongiao.Name = "tongiao";
+            this.tongiao.ReadOnly = true;
+            // 
+            // diachi
+            // 
+            this.diachi.DataPropertyName = "diachi";
+            this.diachi.HeaderText = "Địa chỉ";
+            this.diachi.Name = "diachi";
+            this.diachi.ReadOnly = true;
+            // 
+            // gioitinh
+            // 
+            this.gioitinh.DataPropertyName = "gioitinh";
+            this.gioitinh.HeaderText = "Giới tính";
+            this.gioitinh.Name = "gioitinh";
+            this.gioitinh.ReadOnly = true;
             // 
             // Form1
             // 
@@ -634,15 +651,16 @@
         private System.Windows.Forms.GroupBox ho_so_chi_tietgroupBox1;
         private System.Windows.Forms.TextBox txtQueQuan;
         private System.Windows.Forms.TextBox txtTonGiao;
+        private System.Windows.Forms.ComboBox cboGioiTinh;
+        private System.Windows.Forms.TextBox txtDiaChi;
+        private System.Windows.Forms.DateTimePicker dtpNgaySinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn ma;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ten;
         private System.Windows.Forms.DataGridViewTextBoxColumn ngaysinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn quequan;
         private System.Windows.Forms.DataGridViewTextBoxColumn tongiao;
         private System.Windows.Forms.DataGridViewTextBoxColumn diachi;
         private System.Windows.Forms.DataGridViewTextBoxColumn gioitinh;
-        private System.Windows.Forms.ComboBox cboGioiTinh;
-        private System.Windows.Forms.TextBox txtDiaChi;
-        private System.Windows.Forms.DateTimePicker dtpNgaySinh;
     }
 }
 

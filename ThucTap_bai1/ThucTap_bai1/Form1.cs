@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace ThucTap_bai1
 {
@@ -16,12 +17,39 @@ namespace ThucTap_bai1
         {
             InitializeComponent();
 
+
+        }
+
+        SqlConnection con = new SqlConnection(@"Data Source=HDAVU\SQLEXPRESS;Initial Catalog=QuanLiNhanSu_TT;Integrated Security=True");
+
+        private void KetNoiCSDL()
+        {
+            con.Open();
+            string sql = "SELECT nv.ma, nv.ten, nv.ngaysinh, nv.quequan, nv.tongiao,nv.diachi, nv.gioitinh , phongban.ten , trinhdo.tentrinhdo" 
+                + " FROM nhanvien nv"
+                + " INNER JOIN phongban ON nv.phongbanma = phongban.ma"
+               
+                + " INNER JOIN trinhdo ON nv.trinhdoma = trinhdo.ma";
+
+            SqlCommand com = new SqlCommand(sql, con);
+            com.CommandType = CommandType.Text;
+            SqlDataAdapter da = new SqlDataAdapter(com);
+            // DataTable dt = new DataTable();
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+
+            con.Close();
+
+            danh_sachdataGridView1.DataSource = ds.Tables[0].DefaultView;
+            danh_sachdataGridView1.Columns["ten1"].HeaderText = "Phòng ban";
+            danh_sachdataGridView1.Columns["tentrinhdo"].HeaderText = "Trình độ";
+            //dataGridView1.DataSource = ds.Tables[0].DefaultView;
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //MessageBox.Show("cha");
-
+            KetNoiCSDL();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -51,7 +79,7 @@ namespace ThucTap_bai1
 
         private void label1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
     }
