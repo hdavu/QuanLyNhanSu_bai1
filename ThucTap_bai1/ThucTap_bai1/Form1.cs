@@ -49,6 +49,7 @@ namespace ThucTap_bai1
         private void Form1_Load(object sender, EventArgs e)
         {
             KetNoiCSDL();
+            LoadData();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -106,8 +107,13 @@ namespace ThucTap_bai1
             txtTonGiao.DataBindings.Clear();
             txtTrinhDo.DataBindings.Clear();
 
-
-
+            //hine thi du lieu len
+            txtDiaChi.DataBindings.Add("Text", danh_sachdataGridView1.DataSource, "diachi");
+            txtHoTen.DataBindings.Add("Text", danh_sachdataGridView1.DataSource, "ten");
+            txtPhongBan.DataBindings.Add("Text", danh_sachdataGridView1.DataSource, "ten1");
+            txtQueQuan.DataBindings.Add("Text", danh_sachdataGridView1.DataSource, "quequan");
+            txtTonGiao.DataBindings.Add("Text", danh_sachdataGridView1.DataSource, "tongiao");
+            txtTrinhDo.DataBindings.Add("Text", danh_sachdataGridView1.DataSource, "tentrinhdo");
         }
     }
 }
