@@ -20,7 +20,7 @@ namespace ThucTap_bai1
 
         }
 
-        SqlConnection con = new SqlConnection(@"Data Source=HDAVU\SQLEXPRESS;Initial Catalog=QuanLiNhanSu_TT;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=(local)\SQLEXPRESS;Initial Catalog=QuanLiNhanSu_TT;Integrated Security=True");
 
         private void KetNoiCSDL()
         {
