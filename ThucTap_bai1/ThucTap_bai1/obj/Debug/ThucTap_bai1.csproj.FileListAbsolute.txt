@@ -7,3 +7,34 @@ c:\users\administrator\documents\visual studio 2015\Projects\ThucTap_bai1\ThucTa
 c:\users\administrator\documents\visual studio 2015\Projects\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.csproj.GenerateResource.Cache
 c:\users\administrator\documents\visual studio 2015\Projects\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.exe
 c:\users\administrator\documents\visual studio 2015\Projects\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.pdb
+H:\ThucTap_1\ThucTap_bai1\ThucTap_bai1\bin\Debug\ThucTap_bai1.exe.config
+H:\ThucTap_1\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.exe
+H:\ThucTap_1\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.pdb
+H:\ThucTap_1\ThucTap_bai1\ThucTap_bai1\bin\Debug\ThucTap_bai1.exe
+H:\ThucTap_1\ThucTap_bai1\ThucTap_bai1\bin\Debug\ThucTap_bai1.pdb
+H:\ThucTap_1\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.csprojResolveAssemblyReference.cache
+H:\ThucTap_1\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.Form1.resources
+H:\ThucTap_1\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.Properties.Resources.resources
+H:\ThucTap_1\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.csproj.GenerateResource.Cache
+E:\git_study\QuanLyNhanSu_bai1\ThucTap_bai1\ThucTap_bai1\bin\Debug\ThucTap_bai1.exe.config
+E:\git_study\QuanLyNhanSu_bai1\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.exe
+E:\git_study\QuanLyNhanSu_bai1\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.pdb
+E:\git_study\QuanLyNhanSu_bai1\ThucTap_bai1\ThucTap_bai1\bin\Debug\ThucTap_bai1.exe
+E:\git_study\QuanLyNhanSu_bai1\ThucTap_bai1\ThucTap_bai1\bin\Debug\ThucTap_bai1.pdb
+E:\git_study\QuanLyNhanSu_bai1\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.csprojResolveAssemblyReference.cache
+E:\git_study\QuanLyNhanSu_bai1\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.Properties.Resources.resources
+E:\git_study\QuanLyNhanSu_bai1\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.csproj.GenerateResource.Cache
+E:\git_study\QuanLyNhanSu_bai1\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.frmMain.resources
+E:\git_study\QuanLyNhanSu_bai1\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.frmThongKeThuNhap.resources
+E:\git_study\QuanLyNhanSu_bai1\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.frmThongKeChuyenMon.resources
+C:\Users\Administrator\Downloads\Compressed\QuanLyNhanSu_bai1-master\ThucTap_bai1\ThucTap_bai1\bin\Debug\ThucTap_bai1.exe.config
+C:\Users\Administrator\Downloads\Compressed\QuanLyNhanSu_bai1-master\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.exe
+C:\Users\Administrator\Downloads\Compressed\QuanLyNhanSu_bai1-master\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.pdb
+C:\Users\Administrator\Downloads\Compressed\QuanLyNhanSu_bai1-master\ThucTap_bai1\ThucTap_bai1\bin\Debug\ThucTap_bai1.exe
+C:\Users\Administrator\Downloads\Compressed\QuanLyNhanSu_bai1-master\ThucTap_bai1\ThucTap_bai1\bin\Debug\ThucTap_bai1.pdb
+C:\Users\Administrator\Downloads\Compressed\QuanLyNhanSu_bai1-master\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\Compressed\QuanLyNhanSu_bai1-master\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.frmMain.resources
+C:\Users\Administrator\Downloads\Compressed\QuanLyNhanSu_bai1-master\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.frmThongKeChuyenMon.resources
+C:\Users\Administrator\Downloads\Compressed\QuanLyNhanSu_bai1-master\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.frmThongKeThuNhap.resources
+C:\Users\Administrator\Downloads\Compressed\QuanLyNhanSu_bai1-master\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.Properties.Resources.resources
+C:\Users\Administrator\Downloads\Compressed\QuanLyNhanSu_bai1-master\ThucTap_bai1\ThucTap_bai1\obj\Debug\ThucTap_bai1.csproj.GenerateResource.Cache
